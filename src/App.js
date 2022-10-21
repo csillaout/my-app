@@ -1,14 +1,18 @@
-import './App.css';
+import "./App.css";
 import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather defaultCity= "New York " />
+        <Weather defaultCity="New York " />
         <footer>
           This project was coded by{" "}
-          <a href="http://www.csillatoth.co.uk/" target="_blank">
+          <a
+            href="http://www.csillatoth.co.uk/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Csilla Toth
           </a>{" "}
           and is {""}
