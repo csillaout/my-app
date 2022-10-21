@@ -16,7 +16,11 @@ export default function App() {
             Csilla Toth
           </a>{" "}
           and is {""}
-          <a href="https://github.com/csillaout/my-app" target="_blank">
+          <a
+            href="https://github.com/csillaout/my-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced on GitHub
           </a>
         </footer>
